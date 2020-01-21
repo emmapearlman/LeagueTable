@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Result";
+}
+@using (Html.BeginForm("Submit","Result",FormMethod.Post)) {
+    <h2>Process Data</h2>
+
+    <text>To Process the data and create a league table, press the button    </text>
+
+    <p style="padding-top: 1em; text-align: right">
+        <input type="submit" value="Process" class="k-button k-primary" />
+    </p>
+}
